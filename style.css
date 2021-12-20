@@ -11,6 +11,7 @@
   min-height: 600px;
 }
 .name-todo {
+  color: white;
   margin-top: 30px;
 }
 .input-form {
@@ -31,7 +32,9 @@ input {
   color: white;
   padding-left: 15px;
   transition: 1s all;
+  -webkit-text-fill-color: #fff;
 }
+
 .submit-button:hover {
   color: greenyellow;
   font-size: 18px;
@@ -53,6 +56,7 @@ input {
 }
 
 .button-delete {
+  margin-left: 15px;
   right: 10px;
   bottom: 3px;
   position: absolute;
